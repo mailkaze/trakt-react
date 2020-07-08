@@ -1,0 +1,28 @@
+.cards-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.empty {
+    color: var(--grey);
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.empty span {
+    font-size: 1.6em;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.empty i {
+    margin: auto;
+    font-size: 7em;
+    transform: rotate(12deg);
+}

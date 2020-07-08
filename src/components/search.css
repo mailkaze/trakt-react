@@ -1,0 +1,25 @@
+.input-container {
+    width: 80%;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.input-container #searchBox {
+    width: 100%;
+    border-style: none;
+    border-radius: 18px;
+    margin: 12px 0 10px;
+    padding: 5px 18px;
+    font-size: 1.1em;
+    color: var(--grey);
+    box-sizing: border-box;
+}
+
+.input-container i {
+    position: absolute;
+    top: 19px;
+    right: 12px;
+    color: var(--grey);
+    cursor: pointer;
+}

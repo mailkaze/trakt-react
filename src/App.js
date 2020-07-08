@@ -1,25 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {Search} from './components/Search'
+import {DarkMode} from './components/DarkMode'
+import {CardsContainer} from './components/CardsContainer'    
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Search />
+      <div className="container">
+        <DarkMode />
+        <CardsContainer />
+        {/* <div class="loading-spinner">
+            <script type="text/javascript" src="js/loading-spinner.js"></script>
+            <script type="text/javascript">
+                'use strict';
+                Spinner();
+                Spinner.show();
+                // setTimeout(function () {
+                //     Spinner.hide();
+                //     setTimeout(Spinner.show, 5000);
+                // }, 10000);
+            </script>
+        </div>
+        <button id="load-more">Load more results</button> */}
+      </div>
+    </>
   );
 }
 
