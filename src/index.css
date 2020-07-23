@@ -33,7 +33,7 @@ body {
   color: var(--text);
   padding: 6px;
   transition: 0.2s;
-  display: none;
+  display: block;
   margin-bottom: 8px;
 }
 #load-more:hover {

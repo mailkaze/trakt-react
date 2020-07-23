@@ -20,7 +20,7 @@ export const DarkMode = () => {
                 onChange={toggleDarkMode}
             />
             <label 
-                for="dark-mode-checkbox" 
+                htmlFor="dark-mode-checkbox" 
                 className="switch"
             ><div className="switch-ball"></div>
             </label>
